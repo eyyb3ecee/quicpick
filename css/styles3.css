@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: #ffffff;
+}
+
+h2{
+    margin: 0;
+    padding-top: 100px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+p{
+    margin: 0;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+/*Top Section*/
+.top-container{
+    background-color: #333435;
+    text-align: center;
+}
+
+/*Middle Section*/
+.middle-container{
+    background-color: #d40260;
+    text-align: center;
+}
+
+.skill-row{
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1.5;
+}
+
+.summer{
+    padding-top: 0;
+}
+
+.winter{
+    padding-top: 0;
+}
+
+.autumn{
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+.spring{
+    padding-top: 0;
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 14%;
+    background-color: #333435;
+    color: white;
+}
+
+.foot-icon{
+    padding: 20px 10px;
+}

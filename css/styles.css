@@ -1,0 +1,286 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+}
+
+/*Title Section*/
+#title{
+    background-color: #333435;
+    padding: 3% 15% 5%;
+}
+
+.navbar-brand{
+    color: #FFE6C7;
+}
+
+.brand-title{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #FFE6C7;
+}
+
+.c-color{
+    color: rgb(255, 56, 56);
+}
+
+.o1-color{
+    color: rgb(254, 174, 0);
+}
+
+.l-color{
+    color: rgb(255, 255, 0);
+}
+
+.o2-color{
+    color: rgb(38, 244, 11);
+}
+
+.r-color{
+    color: rgb(29, 225, 243);
+}
+
+.s-color{
+    color: rgb(235, 33, 212);
+}
+
+.links{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.20rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.title-quote{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.btn-download{
+    margin: 5% 3% 5% 0;
+}
+
+.fab-icon{
+    margin: 8px;
+}
+
+.title-image{
+    width: 437px;
+    height: 900px;
+    transform: rotate(15deg);
+    left: 10%;
+    position: absolute;
+}
+
+/*Features Section*/
+#features{
+    text-align: center;
+    padding: 7% 14%;
+    background-color: #d40260;
+    position: relative;
+}
+
+.fa-icon{
+    color: #ffffff;
+    margin: 1rem;
+}
+
+.fa-icon:hover{
+    color: #e6e6e6;
+}
+
+.feature-top{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.feature-desc{
+    color: #e6e6e6;
+}
+
+.feature-col{
+    padding: 5%;
+}
+
+/*Testimonials Section*/
+#testimonials{
+    background-color: #333435;
+    text-align: center;
+    color: white;
+}
+
+.testimonial-image{
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+    height: 1.5;
+}
+
+.carousel-item{
+    padding: 7% 14%;
+}
+
+/*Press Section*/
+#press{
+    background-color: #333435;
+    text-align: center;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+#pricing{
+    text-align: center;
+    padding: 100px;
+    background-color: #bd8120;
+}
+
+.price-heading{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.price-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
+}
+
+.price-desc{
+    color: #e6e6e6;
+    padding-bottom: 20px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+/*Call to Action Section*/
+#cta{
+    background-color: #454545;
+    padding: 7% 14%;
+    text-align: center;
+}
+
+.cta-title{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/*FOoter SEction*/
+#footer{
+    text-align: center;
+    padding: 7% 14%;
+    background-color: #ccd30a;
+    color: white;
+}
+
+.foot-icon{
+    padding: 20px 10px;
+}
+
+@media (max-width: 1024px){
+    .title-quote{
+        font-size: 3rem;
+    }
+    .title-image{
+        position: relative;
+        width: 80%;
+        height: 80%;
+        transform: rotate(0);
+    }
+    .btn-download{
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 425px) {
+    .title-image {
+        position: relative;
+        left: 30px;
+        width: 80%;
+    }
+    .cta-title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 1.5;
+        color: white;
+    }
+}
+
+@media (max-width: 768px){
+    .title-image {
+        position: relative;
+        left: 45px;
+        width: 80%;
+    }   
+}
+
+@media (max-width: 375px) {
+    .title-image {
+        position: relative;
+        left: 30px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 320px) {
+    .title-image {
+        position: relative;
+        left: 30px;
+        width: 80%;
+        
+    }
+    .title-quote {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 1.5;
+        color: #ffffff;
+    }
+    .testimonial-text {
+        font-weight: 700;
+        font-size: 40px;
+        height: 1.5;
+    }
+    .cta-title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 1.5;
+        color: white;
+    }
+    #pricing {
+        text-align: center;
+        padding: 50px;
+        background-color: #bd8120;
+    }
+    .btn-download {
+        position: relative;
+        left: 45px;
+        margin: 5% 3% 5% 0;
+    }
+}
+

@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    color: #DCD7C9;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4rem;
+    padding-top: 120px;
+}
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+h3{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    line-height: 2;
+    padding-bottom: 50px;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 10%;
+    padding: 50px auto;
+    color: #DCD7C9;
+}
+
+/*Top Section*/
+.top-container{
+    padding-top: 80px;
+    text-align: center;
+    background-color: #2C3639;
+}
+
+.right-star{
+    position: absolute;
+    padding-top: 20px;
+    right: 500px;
+    top: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.left-heart{
+    position: absolute;
+    padding-top: 20px;
+    left: 500px;
+    top: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.left-sword{
+    position: absolute;
+    left: 200px;
+    bottom: 190px;
+    width: 200px;
+    height: 200px;
+}
+
+.right-pizza{
+    position: absolute;
+    right: 200px;
+    bottom: 190px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.controller{
+    right: 350px;
+    width: 500px;
+    height: 325px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/*Middle Section*/
+.middle-container{
+    padding: 100px 0px;
+    background-color: #3F4E4F;
+    text-align: center;
+
+}
+
+.profile{
+    margin: auto;
+    width: 30%;
+}
+
+.skill-row{
+    margin: 80px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.gaming-img{
+    float: left;
+    width: 35%;
+    height: 35%;
+    margin-right: 50px;
+}
+
+.pancake-img{
+    float: right;
+    width: 35%;
+    height: 35%;
+    margin-left: 50px;
+}
+
+.steer-img{
+    float: left;
+    width: 40%;
+    height: 40%;
+    margin-right: 50px;
+}
+
+.contact-message{
+    margin: auto auto 50px auto;
+    width: 25%;
+}
+
+.btn {
+    background: #DCD7C9;
+    background-image: -webkit-linear-gradient(top, #DCD7C9, #DCD7C9);
+    background-image: -moz-linear-gradient(top, #DCD7C9, #DCD7C9);
+    background-image: -ms-linear-gradient(top, #DCD7C9, #DCD7C9);
+    background-image: -o-linear-gradient(top, #DCD7C9, #DCD7C9);
+    background-image: -webkit-gradient(to bottom, #DCD7C9, #DCD7C9);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #291E00;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 4px 0 #000000;
+    -moz-box-shadow: 1px 1px 4px 0 #000000;
+    box-shadow: 1px 1px 4px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #DCD7C9 0;
+    background: #DCD7C9;
+    background-image: -webkit-linear-gradient(top, #DCD7C9, #E5BB47);
+    background-image: -moz-linear-gradient(top, #DCD7C9, #E5BB47);
+    background-image: -ms-linear-gradient(top, #DCD7C9, #E5BB47);
+    background-image: -o-linear-gradient(top, #DCD7C9, #E5BB47);
+    background-image: -webkit-gradient(to bottom, #DCD7C9, #E5BB47);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ /*Bottom Section*/
+.bottom-container{
+    background-color: #A27B5C;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-link{
+    margin: 0px 30px;
+    text-decoration: none;
+    color: #DCD7C9;
+}
+
+.footer-link:hover{
+    color: #3F4E4F;
+}
+
+.credit{
+    margin-top: 50px;
+    color: #DCD7C9;
+}
